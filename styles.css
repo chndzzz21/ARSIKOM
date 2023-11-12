@@ -317,12 +317,11 @@ header .navbar a:hover {
 img {
   width: 150px;
   height: 150px;
-  object-fit: fill;
+  object-fit: cover;
+  aspect-ratio: 1;
   border-radius: 50%;
-  overflow: -moz-hidden-unscrollable;
-  position: absolute;
-  top: 200px;
-  margin-left: 500px;
+  overflow: hidden;
+  top: 80px;
 }
 
 /* ===================== HOME ================= */
